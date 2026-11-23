@@ -7,7 +7,7 @@ const SITE = {
   name: "Gulshan",
   headline: "Helping brands & creators grow their reach",
   subline: "I help you create better content through story, motion, sound and design.",
-  email: "gulshanmurmu23@gmail.com",
+  email: "gulshanmurmu31@gmail.com",
   primaryButton: { label: "Send me a DM", url: "https://www.instagram.com/ae_glitch/" },
   socials: [
     { label: "Instagram", url: "https://www.instagram.com/ae_glitch/", icon: "png/icon-instagram.png" },
