@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Gulshan, video editor. Long form and short form edits with story, motion, sound and design.">
+  <title>Gulshan | Video Editor</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="logo" href="#top" id="navName">Your Name</a>
+    <a class="btn" href="#contact">Hire me</a>
+  </nav>
+
+  <header class="hero" id="top">
+    <h1 id="headline"></h1>
+    <p class="sub" id="subline"></p>
+    <div class="cta" id="cta"></div>
+
+    <div class="tl" aria-hidden="true">
+      <div class="ruler">
+        <span style="left:0">00:00</span><span style="left:25%">00:15</span><span style="left:50%">00:30</span><span style="left:75%">00:45</span>
+      </div>
+      <div class="track"><b>V2</b><div class="lane">
+        <div class="clip c3" style="left:6%;width:18%">TITLES</div>
+        <div class="clip c4" style="left:52%;width:22%">MOTION</div></div></div>
+      <div class="track"><b>V1</b><div class="lane">
+        <div class="clip c1" style="left:0;width:30%">HOOK</div>
+        <div class="clip c1" style="left:31%;width:24%">STORY</div>
+        <div class="clip c1" style="left:56%;width:40%">PAYOFF</div></div></div>
+      <div class="track"><b>A1</b><div class="lane">
+        <div class="clip c2" style="left:0;width:48%">DIALOGUE</div>
+        <div class="clip c2" style="left:50%;width:46%">SOUND DESIGN + MUSIC</div></div></div>
+      <div class="playhead"></div>
+    </div>
+  </header>
+
+  <section id="clients" hidden>
+    <p class="mono" style="margin:0 0 14px">Worked with</p>
+    <div class="logos" id="clientList"></div>
+  </section>
+
+  <section id="long">
+    <div class="head"><h2 id="longTitle"></h2><span class="mono" id="longCount"></span></div>
+    <div class="grid" id="longGrid"></div>
+  </section>
+
+  <section id="short">
+    <div class="head"><h2 id="shortTitle"></h2><span class="mono" id="shortCount"></span></div>
+    <div class="grid shorts" id="shortGrid"></div>
+  </section>
+
+  <section id="proof" hidden>
+    <div class="head"><h2>Client testimonials</h2></div>
+    <div class="grid" id="quoteGrid"></div>
+  </section>
+
+  <section id="why">
+    <div class="head"><h2 id="whyTitle"></h2></div>
+    <div class="why" id="whyList"></div>
+  </section>
+
+  <div class="contact" id="contact">
+    <span class="mono">Next project</span>
+    <h2>Let's make your next video land.</h2>
+    <div class="row" id="contactRow"></div>
+    <div class="row" id="emailRow"><span class="email" id="emailText"></span>
+      <button class="btn ghost" id="copyBtn" type="button">Copy email</button></div>
+  </div>
+
+  <footer class="mono"><span id="footName"></span><span id="year"></span></footer>
+</div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
