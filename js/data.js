@@ -42,7 +42,7 @@ const SITE = {
 
   // Real client quotes only. Shape: { quote: "...", name: "...", role: "..." }
   testimonials: [
-    { quote: "Your client's words go here. Send me a real quote and I will replace this one.", name: "Client name", role: "Brand or channel", sample: true },
+    { quote: "Your client's words go here.", name: "Client name", role: "Brand or channel", sample: true },
     { quote: "A second quote can go here, about turnaround, communication or how the video performed.", name: "Client name", role: "Brand or channel", sample: true }
   ],
 
