@@ -20,23 +20,29 @@ const SITE = {
   longForm: {
     title: "Long form edits",
     items: [
-      // url = link to the video (YouTube, Drive, Vimeo). runtime shows as the timecode on the tile.
-      { title: "Sample project one", type: "YouTube documentary", runtime: "12:40", url: "https://youtube.com/", color: "c1" },
-      { title: "Sample project two", type: "Podcast episode", runtime: "48:05", url: "https://youtube.com/", color: "c2" },
-      { title: "Sample project three", type: "Course lesson", runtime: "09:18", url: "https://youtube.com/", color: "c3" },
-      { title: "Sample project four", type: "Brand film", runtime: "03:22", url: "https://youtube.com/", color: "c4" },
-      { title: "Sample project five", type: "Commentary video", runtime: "15:07", url: "https://youtube.com/", color: "c1" },
-      { title: "Sample project six", type: "Interview", runtime: "26:30", url: "https://youtube.com/", color: "c2" }
+      // YouTube embed: add youtube: "VIDEO_ID" (the code after /embed/ in the embed link). It plays right on the page.
+      // Custom thumbnail: add thumbnail with the path of your image. Replace the file in png/thumbnails/ with your own 16:9 image (1920x1080).
+      // With a thumbnail, one click opens the video on YouTube. Remove it to play the video right on the page.
+      // Link tile: use url + runtime instead, it opens the video in a new tab.
+      { title: "Long form edit", type: "YouTube video", youtube: "0yVQfdUNDDM", thumbnail: "png/thumbnails/long-1.png" },
+      { title: "Long form edit", type: "YouTube video", youtube: "" },
+      { title: "Long form edit", type: "YouTube video", youtube: "" },
+      { title: "Long form edit", type: "YouTube video", youtube: "" },
+      { title: "Long form edit", type: "YouTube video", youtube: "" },
+      { title: "Long form edit", type: "YouTube video", youtube: "" }
     ]
   },
 
   shortForm: {
     title: "Short form edits",
     items: [
-      { title: "Sample reel one", type: "Reel", runtime: "00:28", url: "https://instagram.com/", color: "c4" },
-      { title: "Sample reel two", type: "Short", runtime: "00:41", url: "https://youtube.com/", color: "c3" },
-      { title: "Sample reel three", type: "Ad creative", runtime: "00:15", url: "https://instagram.com/", color: "c1" },
-      { title: "Sample reel four", type: "Reel", runtime: "00:33", url: "https://instagram.com/", color: "c2" }
+      // Instagram embed: add instagram: "REEL_ID" or paste the full reel link. Empty slots stay hidden.
+      // Custom thumbnail: add thumbnail with the path of your image. Replace the file in png/thumbnails/ with your own 9:16 image (1080x1920).
+      // Remove the thumbnail part to show the Instagram player directly.
+      { title: "Short form edit", type: "Instagram reel", instagram: "DNdOHaANIpt", thumbnail: "png/thumbnails/reel-1.png" },
+      { title: "Short form edit", type: "Instagram reel", instagram: "https://www.instagram.com/reel/C1ZyLYjP0Ey/", thumbnail: "png/thumbnails/reel-2.png" },
+      { title: "Short form edit", type: "Instagram reel", instagram: "" },
+      { title: "Short form edit", type: "Instagram reel", instagram: "" }
     ]
   },
 

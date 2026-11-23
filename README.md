@@ -24,6 +24,7 @@ gulson-portfolio/
 | Project titles, video links, runtimes    | `js/data.js`          |
 | Client names and testimonials            | `js/data.js`          |
 | Colors, fonts, spacing                   | `css/styles.css`      |
+| Reel thumbnails                          | `png/thumbnails/` (replace reel-1.png, reel-2.png, long-1.png, same names) |
 | Icons and images                         | `png/` folder (keep the same file names) |
 | Page sections or their order             | `index.html`          |
 
