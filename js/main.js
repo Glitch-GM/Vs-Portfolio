@@ -116,7 +116,7 @@ function tiles(group, gridId, titleId, countId, vertical) {
 tiles(SITE.longForm, "longGrid", "longTitle", "longCount", false);
 tiles(SITE.shortForm, "shortGrid", "shortTitle", "shortCount", true);
 
-if (SITE.testimonials.length) {
+if (SITE.showTestimonials && SITE.testimonials.length) {
   $("proof").hidden = false;
   SITE.testimonials.forEach(q => {
     const d = el("div", "quote");
